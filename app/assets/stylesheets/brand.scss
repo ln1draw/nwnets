@@ -1,0 +1,22 @@
+// COLORS
+$brand-yellow: #ffca00;
+
+
+// General styles
+
+body {
+  background-color: $brand-yellow;
+}
+
+.logo-wrapper {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 35px;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+//   font-family: 'Play', sans-serif;
