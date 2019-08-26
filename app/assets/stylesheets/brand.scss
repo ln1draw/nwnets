@@ -6,6 +6,16 @@ $brand-yellow: #ffca00;
 
 body {
   background-color: $brand-yellow;
+  font-family: sans-serif;
+  width: 80%;
+
+  .content-wrapper {
+    margin: 35px;
+  }
+}
+
+h1 {
+  font-family: 'Play', sans-serif;
 }
 
 .logo-wrapper {
@@ -17,6 +27,3 @@ body {
     width: 100%;
   }
 }
-
-
-//   font-family: 'Play', sans-serif;
