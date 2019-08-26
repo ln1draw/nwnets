@@ -8,7 +8,7 @@ class FixTables < ActiveRecord::Migration[5.2]
     add_column :locations, :latitude, :float
     add_column :locations, :longitude, :float
     add_column :locations, :pretty_address, :string
-    add_column :locations, :email_address, :email_suggestion
+    add_column :locations, :email_address, :float
 
   end
 end
