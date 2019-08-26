@@ -1,29 +1,23 @@
 development:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: mysql_development
+  adapter: postgresql
+  encoding: unicode
+  database: postgres_development
   pool: 5
-  username: root
+  username: postgres
   password: password
-  socket: /tmp/mysql.sock
 
 test:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: mysql_test
+  adapter: postgresql
+  encoding: unicode
+  database: postgres_test
   pool: 5
-  username: root
+  username: postgres
   password: password
-  socket: /tmp/mysql.sock
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: mysql_production
+  adapter: postgresql
+  encoding: unicode
+  database: postgres_production
   pool: 5
-  username: root
+  username: postgres
   password: password
-  socket: /tmp/mysql.sock
