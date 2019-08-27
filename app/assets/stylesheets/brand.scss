@@ -3,6 +3,7 @@ $brand-yellow: #ffca00;
 $brand-cream: #f2ecce;
 $brand-black: #000000;
 $brand-blue: #3232b0;
+$brand-red: #f87676;
 
 $border-width: 4px;
 
@@ -33,6 +34,15 @@ body {
     padding: 25px;
     border: $border-width solid $brand-black;
   }
+}
+
+.notice {
+  background-color: $brand-red;
+  text-align: center;
+  height: 2em;
+  font-size: 1.5em;
+  padding-top: 1em;
+  border: $border-width solid $brand-black;
 }
 
 h1 {

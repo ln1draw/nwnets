@@ -16,7 +16,23 @@
       border: $border-width solid $brand-black;
       height: 3em;
       width: 375px;
-      margin: 18px;
+      max-width: 95%;
+      margin-bottom: 18px;
+    }
+
+    .submit-button {
+      background-color: $brand-red;
+      border: $border-width solid $brand-black;
+      height: 4em;
+      width: 4em;
+      vertical-align: bottom;
+      margin-bottom: 18px;
+    }
+
+    img {
+      position: relative;
+      right: 38px;
+      top: 8px;
     }
   }
 

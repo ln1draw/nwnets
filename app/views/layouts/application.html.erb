@@ -16,6 +16,10 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="content-wrapper">
+      <% if flash[:notice] %>
+        <div class="notice"><%= flash[:notice] %></div>
+      <% end %>
+      
       <%= yield %>
     </div>
   </body>
