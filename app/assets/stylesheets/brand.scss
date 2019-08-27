@@ -2,8 +2,24 @@
 $brand-yellow: #ffca00;
 $brand-cream: #f2ecce;
 $brand-black: #000000;
+$brand-blue: #3232b0;
+
+$border-width: 4px;
 
 // General styles
+
+a {
+  color: $brand-blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    opacity: .6;
+  }
+}
 
 body {
   background-color: $brand-yellow;
@@ -15,7 +31,7 @@ body {
     margin: 35px;
     background-color: $brand-cream;
     padding: 25px;
-    border: 4px solid $brand-black;
+    border: $border-width solid $brand-black;
   }
 }
 

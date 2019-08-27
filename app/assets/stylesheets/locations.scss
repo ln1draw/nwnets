@@ -8,4 +8,28 @@
   h1 {
     text-align: center;
   }
+
+  .input-wrapper {
+    text-align: center;
+
+    .address-input {
+      border: $border-width solid $brand-black;
+      height: 3em;
+      width: 375px;
+      margin: 18px;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    .location {
+      margin: 5px;
+      margin-top: 20px;
+
+      a {
+        font-size: 1.25em;
+      }
+    }
+  }
 }

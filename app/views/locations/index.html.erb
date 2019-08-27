@@ -1,8 +1,13 @@
 <div class="locations-wrapper">
   <h1>Who profits from ICE near you?</h1>
+  <div class="input-wrapper">
+    <input class="address-input" type="text" name="address">
+  </div>
   <ul>
     <% @locations.each do |location| %>
-      <li><%= link_to(location.name, locations_show_path(id: location.id)) %></li>
+      <li class="location">
+        <%= link_to(location.name + ' - ' + location.pretty_address, locations_show_path(id: location.id)) %>
+      </li>
     <% end %>
   </ul>
 </div>
