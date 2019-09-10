@@ -50,11 +50,20 @@ h1 {
 }
 
 .logo-wrapper {
-  max-width: 350px;
   margin: auto;
   margin-top: 35px;
+  text-align: center;
 
   img {
-    width: 100%;
+    max-width: 350px;
   }
+
+  h1{
+    color: $brand-black;
+  }
+}
+
+.link-box {
+  margin: 35px;
+  font-family: 'Play', sans-serif;
 }
