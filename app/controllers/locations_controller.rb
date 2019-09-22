@@ -1,12 +1,13 @@
 class LocationsController < ApplicationController
   def index
-    @locations = Location.all
+    approved_locations = Location.where(pending: false)
+    @locations = approved_locations
 
     a = params["address"]
-    @locations = Location.near(a) unless a.nil?
+    @locations = approved_locations.near(a) unless a.nil?
 
     if @locations.length == 0
-      @locations = Location.all
+      @locations = approved_locations
       flash[:notice] = "Unable to find results; please check address"
     end
   end

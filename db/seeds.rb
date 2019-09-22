@@ -18,7 +18,8 @@ Location.create([
     pretty_address: "Seattle, WA",
     email_address: "info@palantir.com",
     email_suggestion: "As a concerned community member of Palantir Seattle, I am writing to ask that you end your contract with ICE. By continuing to choose money over morals, you are directly profiting over the deaths of poor, desperate people. Please be better humans than that.",
-    blurb: "Palantir Tech isn't just named after magical technology that was exploited to do evil; they then made it their mission to do evil themselves. ICE uses their mobile app during raids. Palantir is, effectively, the tech branch of ICE, and records show they made $60 million on FALCON alone. There is an office in Seattle."
+    blurb: "Palantir Tech isn't just named after magical technology that was exploited to do evil; they then made it their mission to do evil themselves. ICE uses their mobile app during raids. Palantir is, effectively, the tech branch of ICE, and records show they made $60 million on FALCON alone. There is an office in Seattle.",
+    pending: false
   },
   {
     name: 'Palantir Los Angeles',
@@ -31,6 +32,21 @@ Location.create([
     pretty_address: "Los Angeles, California",
     email_address: "info@palantir.com",
     email_suggestion: "As a concerned community member of Palantir Los Angeles, I am writing to ask that you end your contract with ICE. By continuing to choose money over morals, you are directly profiting over the deaths of poor, desperate people. Please be better humans than that.",
-    blurb: "Palantir Tech isn't just named after magical technology that was exploited to do evil; they then made it their mission to do evil themselves. ICE uses their mobile app during raids. Palantir is, effectively, the tech branch of ICE, and records show they made $60 million on FALCON alone. There is an office in Los Angeles."
+    blurb: "Palantir Tech isn't just named after magical technology that was exploited to do evil; they then made it their mission to do evil themselves. ICE uses their mobile app during raids. Palantir is, effectively, the tech branch of ICE, and records show they made $60 million on FALCON alone. There is an office in Los Angeles.",
+    pending: false
+  },
+  {
+    name: "User Generated Data",
+    latitude: 48,
+    longitude: -123,
+    street: '123 fake st',
+    city: 'Seattle',
+    state: 'WA',
+    country: 'USA',
+    pretty_address: 'Up your butt',
+    email_address: "up@ur.butt",
+    email_suggestion: "your butt has been supporting ICE",
+    blurb: "omg why has your butt been supporting ICE?!",
+    pending: true
   }
 ])
