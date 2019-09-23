@@ -7,6 +7,7 @@ $brand-red: #f87676;
 
 $border-width: 4px;
 
+
 // General styles
 
 a {
@@ -66,4 +67,12 @@ h1 {
 .link-box {
   margin: 35px;
   font-family: 'Play', sans-serif;
+
+  a {
+    padding: 16px;
+
+    h2 {
+      display: inline-block;
+    }
+  }
 }

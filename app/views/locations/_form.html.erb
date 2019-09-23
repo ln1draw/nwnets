@@ -1,0 +1,45 @@
+<%= form_with(model: @location) do %>
+  <div class="form-couple">
+    <%= label_tag(:name, "Name of collaborator:") %>
+    <%= text_field_tag(:name) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:blurb, "Description of connection:") %>
+    <%= text_field_tag(:blurb) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:street, "Street:") %>
+    <%= text_field_tag(:street) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:city, "City:") %>
+    <%= text_field_tag(:city) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:state, "State:") %>
+    <%= text_field_tag(:state) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:country, "Country:") %>
+    <%= text_field_tag(:country) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:email_address, "Their email address:") %>
+    <%= text_field_tag(:email_address) %>
+  </div>
+
+  <div class="form-couple">
+    <%= label_tag(:suggestor_email, "Your email address, so we can track this suggestion:") %>
+    <%= text_field_tag(:suggestor_email) %>
+  </div>
+  
+  <div class="form-couple">
+    <%= submit_tag("Submit") %>
+  </div>
+<% end %>

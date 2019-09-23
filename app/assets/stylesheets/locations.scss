@@ -49,3 +49,19 @@
     }
   }
 }
+
+.form-couple {
+  margin: 10px;
+  height: 24px;
+
+  label {
+    width: 39%;
+    float: left;
+  }
+
+  input {
+    margin-left: 10px;
+    width: 60%;
+    float: right;
+  }
+}
