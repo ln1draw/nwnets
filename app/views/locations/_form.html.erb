@@ -10,6 +10,11 @@
   </div>
 
   <div class="form-couple">
+    <%= label_tag(:citation, "Citation (what's your source on this?)") %>
+    <%= text_field_tag(:citation) %>
+  </div>
+
+  <div class="form-couple">
     <%= label_tag(:street, "Street:") %>
     <%= text_field_tag(:street) %>
   </div>
@@ -38,8 +43,8 @@
     <%= label_tag(:suggestor_email, "Your email address, so we can track this suggestion:") %>
     <%= text_field_tag(:suggestor_email) %>
   </div>
-  
-  <div class="form-couple">
+
+  <div class="form-submit">
     <%= submit_tag("Submit") %>
   </div>
 <% end %>
