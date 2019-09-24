@@ -9,7 +9,7 @@
   <ul>
     <% @locations.each do |location| %>
       <li class="location">
-        <%= link_to(location.name + ' - ' + location.pretty_address, locations_show_path(id: location.id)) %>
+        <%= link_to(location.pretty_reference, locations_show_path(id: location.id)) %>
       </li>
     <% end %>
   </ul>

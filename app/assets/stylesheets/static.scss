@@ -1,3 +1,30 @@
 // Place all the styles related to the static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.branding {
+  p {
+    min-height: 24px;
+    margin: 24px;
+
+    .left {
+      float: left;
+      font-weight: bold;
+    }
+
+    .right {
+      float: right;
+    }
+
+    &.intro {
+      margin-bottom: 24px;
+    }
+
+    &.image {
+      height: 270px;
+      img {
+        max-height: 270px;
+      }
+    }
+  }
+}
