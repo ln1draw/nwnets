@@ -1,8 +1,8 @@
 // COLORS
 $brand-yellow: #ffca00;
-$brand-cream: #f2ecce;
-$brand-black: #000000;
-$brand-blue: #3232b0;
+$brand-cream: #dbe9ee;
+$brand-black: #082332;
+$brand-blue: #446699;
 $brand-red: #f87676;
 
 $border-width: 4px;
@@ -49,6 +49,9 @@ h1 {
   font-family: 'Play', sans-serif;
 }
 
+
+// upper part of the header
+
 .logo-wrapper {
   margin: auto;
   margin-top: 35px;
@@ -63,7 +66,27 @@ h1 {
   }
 }
 
+
+// lower part of the header
+
 .link-box {
   margin: 35px;
+  margin: auto;
   font-family: 'Play', sans-serif;
+  height: 35px;
+  text-align: center;
+
+  li {
+    float: left;
+    list-style: none;
+    position: relative;
+    bottom: 24px;
+    margin: 0px 24px;
+    width: 40%;
+
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
 }
