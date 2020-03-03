@@ -4,4 +4,7 @@ class StaticController < ApplicationController
 
   def branding
   end
+
+  def welcome
+  end
 end

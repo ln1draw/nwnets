@@ -1,23 +1,16 @@
 development:
   adapter: postgresql
-  encoding: unicode
-  database: postgres_development
+  database: personal_development
   pool: 5
-  username: postgres
-  password: password
-
+  timeout: 5000
 test:
   adapter: postgresql
-  encoding: unicode
-  database: postgres_test
+  database: personal_test
   pool: 5
-  username: postgres
-  password: password
+  timeout: 5000
 
 production:
   adapter: postgresql
-  encoding: unicode
-  database: postgres_production
+  database: personal_production
   pool: 5
-  username: postgres
-  password: password
+  timeout: 5000
